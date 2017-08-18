@@ -1,15 +1,8 @@
 <!-- 
-==================================================
-PLEASE READ FIRST:
-
-- Use Discriptive & recognizable titles
-- Do not make gender distinction in the title.
-- Prefix title with City / Location 
-- Suffix with your Company Name
-
-Bad Example: `Coding Guru wantd to work superstar team!!!`
-Good Example: `[Toronto] Front End Developer at COMPANY NAME`
-==================================================
+=========================================================================
+PLEASE REVIEW RULES BEFORE POSTING: 
+https://github.com/TechnologyMasters/jobs/blob/master/README.md#employers
+=========================================================================
 -->
 
 ## What You'll get
@@ -64,9 +57,10 @@ Please send an email to [email@email.com](email@email.com) with your resume, use
 ## Meta
 
 - [ ] Full Time
+- [ ] Part Time
 - [ ] Contract
 - [ ] Remote OK
-- [ ] Full Remote
+- [ ] Fully Remote
 - [ ] Hourly
 - [ ] Salary
 - [ ] Project
