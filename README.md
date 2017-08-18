@@ -2,15 +2,15 @@
 
 Find the best jobs in from [our community](https://techmasters.chat/).
 
-### Job Seekers
+## Job Seekers
 
 Listed jobs are in [Github issues](https://github.com/TechnologyMasters/jobs/issues)
 
-### Employers
+## Employers
 
 Please note: we strongly believe that **great companies always start with a friendly and detailed job post**. We wish to provide our community with the best opportunities and match with great companies, in order to uphold this belief, we're asking that you, the recruiter, to _comply_ with our strict rules below. If the job post does not meet our requirements, it would get **deleted without notice**.
 
-#### Post Format
+### Post Format
 
 Every post title **MUST** follow the format below:
 
