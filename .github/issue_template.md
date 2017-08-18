@@ -63,4 +63,3 @@ Please send an email to [email@email.com](email@email.com) with your resume, use
 - [ ] Fully Remote
 - [ ] Hourly
 - [ ] Salary
-- [ ] Project
