@@ -3,7 +3,7 @@ ruleset:
     name: "Label issue as full time"
     events: [ issues ]
     when:
-      - action = "opened" or "edited"
+      - action = "opened" or action = "edited"
       - body matches "/[\s*x\s*] Full Time/"
     label: length full time
 
@@ -11,7 +11,7 @@ ruleset:
     name: "Label issue as part time"
     events: [ issues ]
     when:
-      - action = "opened" or "edited"
+      - action = "opened" or action = "edited"
       - body matches "/[\s*x\s*] Part Time/"
     label: length part time
 
@@ -19,7 +19,7 @@ ruleset:
     name: "Label issue as remote ok"
     events: [ issues ]
     when:
-      - action = "opened" or "edited"
+      - action = "opened" or action = "edited"
       - body matches "/[\s*x\s*] Remote OK/"
     label: remote ok
 
@@ -27,7 +27,7 @@ ruleset:
     name: "Label issue as fully remote"
     events: [ issues ]
     when:
-      - action = "opened" or "edited"
+      - action = "opened" or action = "edited"
       - body matches "/[\s*x\s*] Fully Remote/"
     label: fully remote
 
@@ -35,7 +35,7 @@ ruleset:
     name: "Label issue as rate hourly"
     events: [ issues ]
     when:
-      - action = "opened" or "edited"
+      - action = "opened" or action = "edited"
       - body matches "/[\s*x\s*] rate hourly/"
     label: rate hourly
 
@@ -43,6 +43,6 @@ ruleset:
     name: "Label issue as rate salary"
     events: [ issues ]
     when:
-      - action = "opened" or "edited"
+      - action = "opened" or action = "edited"
       - body matches "/[\s*x\s*] Rate Salary/"
     label: rate salary
