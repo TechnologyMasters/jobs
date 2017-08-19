@@ -27,7 +27,7 @@ ruleset:
     when:
       - action = "opened" or action = "edited"
       - not (body contains "[x] Part Time")
-    label: -length part time
+    label: "-length part time"
 
   label_remote-ok:
     name: "Label issue as remote ok"
@@ -42,7 +42,7 @@ ruleset:
     when:
       - action = "opened" or action = "edited"
       - not (body contains "[x] Remote OK")
-    label: -remote ok
+    label: "-remote ok"
 
   label_fully-remote:
     name: "Label issue as fully remote"
@@ -50,14 +50,14 @@ ruleset:
     when:
       - action = "opened" or action = "edited"
       - body contains "[x] Fully Remote"
-    label: fully remote
+    label: remote fully
   label_fully-remote_r:
     name: "Unlabel issue as fully remote"
     events: [ issues ]
     when:
       - action = "opened" or action = "edited"
       - not (body contains "[x] Fully Remote")
-    label: -fully remote
+    label: "-remote fully"
 
   label_rate-hourly:
     name: "Label issue as rate hourly"
@@ -72,7 +72,7 @@ ruleset:
     when:
       - action = "opened" or action = "edited"
       - not (body contains "[x] Rate Hourly")
-    label: -rate hourly
+    label: "-rate hourly"
 
   label_rate-salary:
     name: "Label issue as rate salary"
@@ -87,4 +87,4 @@ ruleset:
     when:
       - action = "opened" or action = "edited"
       - not (body contains "[x] Rate Salary")
-    label: -rate salary
+    label: "-rate salary"
