@@ -6,43 +6,85 @@ ruleset:
       - action = "opened" or action = "edited"
       - body contains "[x] Full Time"
     label: length full time
+  label_full-time_r:
+    name: "Unlabel issue as full time"
+    events: [ issues ]
+    when:
+      - action = "opened" or action = "edited"
+      - not (body contains "[x] Full Time")
+    label: -length full time
 
   label_part-time:
     name: "Label issue as part time"
     events: [ issues ]
     when:
       - action = "opened" or action = "edited"
-      - body contains "/[\s*x\s*] Part Time/"
+      - body contains "[x] Part Time"
     label: length part time
+  label_part-time_r:
+    name: "Unlabel issue as part time"
+    events: [ issues ]
+    when:
+      - action = "opened" or action = "edited"
+      - not (body contains "[x] Part Time")
+    label: -length part time
 
   label_remote-ok:
     name: "Label issue as remote ok"
     events: [ issues ]
     when:
       - action = "opened" or action = "edited"
-      - body contains "/[\s*x\s*] Remote OK/"
+      - body contains "[x] Remote OK"
     label: remote ok
+  label_remote-ok_r:
+    name: "Unlabel issue as remote ok"
+    events: [ issues ]
+    when:
+      - action = "opened" or action = "edited"
+      - not (body contains "[x] Remote OK")
+    label: -remote ok
 
   label_fully-remote:
     name: "Label issue as fully remote"
     events: [ issues ]
     when:
       - action = "opened" or action = "edited"
-      - body contains "/[\s*x\s*] Fully Remote/"
+      - body contains "[x] Fully Remote"
     label: fully remote
+  label_fully-remote_r:
+    name: "Unlabel issue as fully remote"
+    events: [ issues ]
+    when:
+      - action = "opened" or action = "edited"
+      - not (body contains "[x] Fully Remote")
+    label: -fully remote
 
   label_rate-hourly:
     name: "Label issue as rate hourly"
     events: [ issues ]
     when:
       - action = "opened" or action = "edited"
-      - body contains "/[\s*x\s*] rate hourly/"
+      - body contains "[x] Rate Hourly"
     label: rate hourly
+  label_rate-hourly_r:
+    name: "Unlabel issue as rate hourly"
+    events: [ issues ]
+    when:
+      - action = "opened" or action = "edited"
+      - not (body contains "[x] Rate Hourly")
+    label: -rate hourly
 
   label_rate-salary:
     name: "Label issue as rate salary"
     events: [ issues ]
     when:
       - action = "opened" or action = "edited"
-      - body contains "/[\s*x\s*] Rate Salary/"
+      - body contains "[x] Rate Salary"
     label: rate salary
+  label_rate-salary_r:
+    name: "Unlabel issue as rate salary"
+    events: [ issues ]
+    when:
+      - action = "opened" or action = "edited"
+      - not (body contains "[x] Rate Salary")
+    label: -rate salary
