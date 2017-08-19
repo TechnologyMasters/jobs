@@ -12,7 +12,7 @@ ruleset:
     when:
       - action = "opened" or action = "edited"
       - not (body contains "[x] Full Time")
-    label: -length full time
+    label: "-length full time"
 
   label_part-time:
     name: "Label issue as part time"
