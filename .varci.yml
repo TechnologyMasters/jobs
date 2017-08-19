@@ -32,17 +32,17 @@ ruleset:
     label: fully remote
 
   label_rate-hourly:
-    name: "Label issue as fully remote"
+    name: "Label issue as rate hourly"
     events: [ issues ]
     when:
       - action = "opened" or "edited"
-      - body matches "/[\s*x\s*] Fully Remote/"
-    label: fully remote
+      - body matches "/[\s*x\s*] rate hourly/"
+    label: rate hourly
 
   label_rate-salary:
-    name: "Label issue as fully remote"
+    name: "Label issue as rate salary"
     events: [ issues ]
     when:
       - action = "opened" or "edited"
-      - body matches "/[\s*x\s*] Fully Remote/"
-    label: fully remote
+      - body matches "/[\s*x\s*] Rate Salary/"
+    label: rate salary
