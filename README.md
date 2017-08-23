@@ -44,28 +44,28 @@ Simply [submit a ticket GitHub issue](https://github.com/TechnologyMasters/jobs/
 
 #### Time commitment
 
-Determines the amount of time candidates are expected to contribute over the course of their employment. If more than label is selected, the candidate may likely choose which option works best for them.
+Determines the amount of time candidates are expected to contribute over the course of their employment. If more than one label is selected, the candidate may likely choose which option works best for them.
 
 Label | Definition
---- | ---
-**Full-Time** | Candidates are expected to work standard weekly hours with a long-term commitment.
-**Part-Time** | Candidates would work fewer than their region's standard weekly hours.  
-**Contract** | Candidates may have negotiable hours over a typically short-term commitment.
+:--- | ---
+Full-Time | Candidates are expected to work standard weekly hours with a long-term commitment.
+Part-Time | Candidates would work fewer than their region's standard weekly hours.  
+Contract | Candidates may have negotiable hours over a typically short-term commitment.
 
 #### Remote
 
 Determines eligibility to work remotely.
 
 Label | Definition
---- | ---
-**Remote OK** | Candidate may likely work remotely, but is preferred to be on site for the majority of their employment. Flexibility may vary.
-**Fully Remote** | Candidate may work remotely throughout their employment. This may also be regarded as exclusively remote.
+:--- | ---
+Remote OK | Candidate may likely work remotely, but is preferred to be on site for the majority of their employment. Flexibility may vary.
+Fully Remote | Candidate may work remotely throughout their employment. This may also be regarded as exclusively remote.
 
 #### Rate of pay
 
-How a candidate earns their pay. If more than label is selected, the candidate may likely choose which option works best for them.
+How a candidate earns their pay. If more than one label is selected, the candidate may likely choose which option works best for them.
 
 Label | Definition
---- | ---
-**Hourly** | Candidate is paid by the hour. Typical for short-term or contract work.
-**Salary** | Candidate has a salary paid at regular intervals throughout their employment. Typical for full-time positions that establish employer-employee relationships.
+:--- | ---
+Hourly | Candidate is paid by the hour. Typical for short-term or contract work.
+Salary | Candidate has a salary paid at regular intervals throughout their employment. Typical for full-time positions that establish employer-employee relationships.
