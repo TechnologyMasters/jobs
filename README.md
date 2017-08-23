@@ -44,7 +44,7 @@ Simply [submit a ticket GitHub issue](https://github.com/TechnologyMasters/jobs/
 
 #### Time commitment
 
-Determines the amount of time candidates are expected to contribute over the course of their employment. If more than one item is labelled, the candidate may likely choose which option works best for them.
+Determines the amount of time candidates are expected to contribute over the course of their employment. If more than label is selected, the candidate may likely choose which option works best for them.
 
 Label | Definition
 --- | ---
@@ -63,7 +63,7 @@ Label | Definition
 
 #### Rate of pay
 
-How a candidate earns their pay. If more than one item is labelled, the candidate may likely choose which option works best for them.
+How a candidate earns their pay. If more than label is selected, the candidate may likely choose which option works best for them.
 
 Label | Definition
 --- | ---
