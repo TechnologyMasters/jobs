@@ -51,6 +51,7 @@ Label | Definition
 Full-Time | Candidates are expected to work standard weekly hours with a long-term commitment.
 Part-Time | Candidates would work fewer than their region's standard weekly hours.  
 Contract | Candidates may have negotiable hours over a typically short-term commitment.
+Internship | Candidate is expected to make a short-term committment to the organisation while gaining paid work experience
 
 #### Remote
 

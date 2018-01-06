@@ -44,6 +44,21 @@ ruleset:
       - not (body contains "[x] Contract")
     label: "-contract"
 
+  label_internship:
+    name: "Label issue as internship"
+    events: [ issues ]
+    when:
+      - action = "opened" or action = "edited"
+      - body contains "[x] Internship"
+    label: internship
+  label_internship_r:
+    name: "Unlabel issue as internship"
+    events: [ issues ]
+    when:
+      - action = "edited"
+      - not (body contains "[x] Internship")
+    label: "-internship"
+
   label_remote-ok:
     name: "Label issue as remote ok"
     events: [ issues ]

@@ -63,6 +63,7 @@ Please send an email to [email@email.com](email@email.com) with your resume, use
 - [ ] Full Time
 - [ ] Part Time
 - [ ] Contract
+- [ ] Internship
 - [ ] Remote OK
 - [ ] Fully Remote
 - [ ] Hourly
