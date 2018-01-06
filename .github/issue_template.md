@@ -11,6 +11,7 @@ Issue title format: [Company Name] - [Job Title] - [Location]
 
 ### Salary Expectation
 
+<!-- Be sure to specify currency if location isn't particular to one country -->
 - $5000/month or negotiable
 - Contract / Full Time
 
