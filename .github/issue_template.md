@@ -11,7 +11,14 @@ Issue title format: [Company Name] - [Job Title] - [Location]
 
 ### Salary Expectation
 
-<!-- Be sure to specify currency if location isn't particular to one country -->
+<!--
+  Be sure to specify an actual salary figure, or at least a range
+  Include a currency if the work location can be in more places
+  than the one in your post title
+
+  Posts that do not include a salary or range
+  will receive a 'needs info' label
+-->
 - $5000/month or negotiable
 - Contract / Full Time
 
@@ -60,6 +67,10 @@ Please send an email to [email@email.com](email@email.com) with your resume, use
 ---
 
 ## Meta
+<!--
+  These meta tickboxes automatically apply labels to your post
+  Learn more in the README https://github.com/TechnologyMasters/jobs/blob/master/README.md#label-definitions
+-->
 
 - [ ] Full Time
 - [ ] Part Time
