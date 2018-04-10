@@ -1,6 +1,6 @@
 # #TechMasters Job Board
 
-Find the best jobs in from [our community](https://techmasters.chat/).
+Find the best jobs worldwide from [our community](https://techmasters.chat/).
 
 ## Job Seekers
 
