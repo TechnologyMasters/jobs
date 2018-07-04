@@ -16,7 +16,7 @@ Issue title format: [Company Name] - [Job Title] - [Location]
   Include a currency if the work location can be in more places
   than the one in your post title
 
-  Posts that do not include a salary or range
+  IMPORTANT: Posts that do not include a salary or range
   will receive a 'needs info' label
 -->
 - $5000/month or negotiable
@@ -70,6 +70,12 @@ Please send an email to [email@email.com](email@email.com) with your resume, use
 <!--
   These meta tickboxes automatically apply labels to your post
   Learn more in the README https://github.com/TechnologyMasters/jobs/blob/master/README.md#label-definitions
+
+  Unfilled example:
+  - [ ] Full Time
+
+  Filled example:
+  - [x] Full Time
 -->
 
 - [ ] Full Time

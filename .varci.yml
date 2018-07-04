@@ -1,4 +1,12 @@
 ruleset:
+  label_needs-info:
+    name: "Label issue as needs info"
+    events: [ issues ]
+    when:
+      - action = "opened" or action = "edited"
+      - not (body contains "Salary Expectation")
+    label: needs info
+
   label_full-time:
     name: "Label issue as full time"
     events: [ issues ]
