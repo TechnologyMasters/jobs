@@ -48,10 +48,10 @@ Determines the amount of time candidates are expected to contribute over the cou
 
 Label | Definition
 :--- | ---
-Full-Time | Candidates are expected to work standard weekly hours with a long-term commitment.
-Part-Time | Candidates would work fewer than their region's standard weekly hours.  
-Contract | Candidates may have negotiable hours over a typically short-term commitment.
-Internship | Candidate is expected to make a short-term committment to the organisation while gaining paid work experience
+Full-Time | Candidates are expected to work standard weekly hours with a long-term commitment. This implies a full-time salary would be paid, with taxes deducted upfront.
+Part-Time | Candidates would work fewer than their region's standard weekly hours.
+Contract | Candidates may have negotiable hours over a typically short-term commitment. This implies a salary period would be negotiated between the client and contractor, with the contractor responsible for their own taxes.
+Internship | Candidate is expected to make a short-term committment to the organization while gaining paid work experience.
 
 #### Remote
 
@@ -59,14 +59,6 @@ Determines eligibility to work remotely.
 
 Label | Definition
 :--- | ---
+Remote Worldwide | Candidate may work remotely throughout their employment almost anywhere in the world. This may also be regarded as exclusively remote.
+Remote Regional | Candidate may work remotely throughout their employment, but may be restricted to a certain area or time zone due to team structure, financial, or legal reasons.
 Remote OK | Candidate may likely work remotely, but is preferred to be on site for the majority of their employment. Flexibility may vary.
-Fully Remote | Candidate may work remotely throughout their employment. This may also be regarded as exclusively remote.
-
-#### Rate of pay
-
-How a candidate earns their pay. If more than one label is selected, the candidate may likely choose which option works best for them.
-
-Label | Definition
-:--- | ---
-Hourly | Candidate is paid by the hour. Typical for short-term or contract work.
-Salary | Candidate has a salary paid at regular intervals throughout their employment. Typical for full-time positions that establish employer-employee relationships.

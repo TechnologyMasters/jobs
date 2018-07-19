@@ -32,8 +32,11 @@ Issue title format: [Company Name] - [Job Title] - [Location]
 
 ### Location
 
+<!--
+  Please specify your job's policy on remote work (see README for details)
+-->
 - Toronto, Ontario
-- Remote OK
+- Candidate may work from home for a few days every month
 
 ## What You'll Do _(Job Description)_
 
@@ -82,7 +85,6 @@ Please send an email to [email@email.com](email@email.com) with your resume, use
 - [ ] Part Time
 - [ ] Contract
 - [ ] Internship
+- [ ] Remote Worldwide
+- [ ] Remote Regional
 - [ ] Remote OK
-- [ ] Fully Remote
-- [ ] Hourly
-- [ ] Salary
