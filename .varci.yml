@@ -82,47 +82,32 @@ ruleset:
       - not (body contains "[x] Remote OK")
     label: "-remote ok"
 
-  label_fully-remote:
-    name: "Label issue as fully remote"
+  label_remote-worldwide:
+    name: "Label issue as remote worldwide"
     events: [ issues ]
     when:
       - action = "opened" or action = "edited"
-      - body contains "[x] Fully Remote"
-    label: fully remote
-  label_fully-remote_r:
-    name: "Unlabel issue as fully remote"
+      - body contains "[x] Remote Worldwide"
+    label: remote worldwide
+  label_remote-worldwide_r:
+    name: "Unlabel issue as remote worldwide"
     events: [ issues ]
     when:
       - action = "edited"
-      - not (body contains "[x] Fully Remote")
-    label: "-fully remote"
+      - not (body contains "[x] Remote Worldwide")
+    label: "-remote worldwide"
 
-  label_hourly:
-    name: "Label issue as hourly"
+  label_remote-regional:
+    name: "Label issue as remote regional"
     events: [ issues ]
     when:
       - action = "opened" or action = "edited"
-      - body contains "[x] Hourly"
-    label: hourly
-  label_hourly_r:
-    name: "Unlabel issue as hourly"
+      - body contains "[x] Remote Regional"
+    label: remote regional
+  label_remote-regional_r:
+    name: "Unlabel issue as remote regional"
     events: [ issues ]
     when:
       - action = "edited"
-      - not (body contains "[x] Hourly")
-    label: "-hourly"
-
-  label_salary:
-    name: "Label issue as salary"
-    events: [ issues ]
-    when:
-      - action = "opened" or action = "edited"
-      - body contains "[x] Salary"
-    label: salary
-  label_salary_r:
-    name: "Unlabel issue as salary"
-    events: [ issues ]
-    when:
-      - action = "edited"
-      - not (body contains "[x] Salary")
-    label: "-salary"
+      - not (body contains "[x] Remote Regional")
+    label: "-remote regional"
