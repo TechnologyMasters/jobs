@@ -4,7 +4,7 @@ ruleset:
     events: [ issues ]
     when:
       - action = "opened" or action = "edited"
-      - not (body contains "Salary Expectation")
+      - not (body contains "Salary Expectation") or not (body contains "## Meta")
     label: needs info
 
   label_full-time:
