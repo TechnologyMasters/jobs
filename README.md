@@ -51,7 +51,7 @@ Label | Definition
 Full-Time | Candidates are expected to work standard weekly hours with a long-term commitment. This implies a full-time salary would be paid, with taxes deducted upfront.
 Part-Time | Candidates would work fewer than their region's standard weekly hours.
 Contract | Candidates may have negotiable hours over a typically short-term commitment. This implies a salary period would be negotiated between the client and contractor, with the contractor responsible for their own taxes.
-Internship | Candidate is expected to make a short-term committment to the organization while gaining paid work experience.
+Internship | Candidate is expected to make a short-term commitment to the organization while gaining paid work experience.
 
 #### Remote
 
