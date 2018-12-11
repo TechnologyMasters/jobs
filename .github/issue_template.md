@@ -16,8 +16,14 @@ Issue title format: [Company Name] - [Job Title] - [Location]
   Include a currency if the work location can be in more places
   than the one in your post title
 
-  IMPORTANT: Posts that do not include a salary or range
-  will receive a 'needs info' label
+  IMPORTANT: The Province of Ontario has a Pay Transparency Act
+  that requires employers to post a compensation range in all
+  public job postings:
+
+  https://www.ontario.ca/laws/statute/s18005#BK6
+
+  As such, posts that do not include a salary or range will
+  receive a 'stale' label and will be closed after 7 days.
 -->
 - $5000/month or negotiable
 - Contract / Full Time
