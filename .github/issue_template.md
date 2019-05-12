@@ -76,8 +76,10 @@ Please send an email to [email@email.com](email@email.com) with your resume, use
 
   Note, you must fill in the checkboxes correctly in order for them to appear as checked in Markdown
 
-  Unfilled example:
+  Unfilled examples:
   - [ ] Full Time
+  - [ x] Full Time
+  - [x ] Full Time
 
   Filled example:
   - [x] Full Time
