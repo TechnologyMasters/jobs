@@ -15,7 +15,7 @@ Please note: we strongly believe that **great companies always start with a frie
 Every post title **MUST** follow the format below:
 
 ```
-[Company Name] - [Job Title] - [Location] - [Salary]
+[Company Name] - [Job Title] - [Location] - [Salary] [Currency]/[Frequency]
 ```
 
 for eg:
