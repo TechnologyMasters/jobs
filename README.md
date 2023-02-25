@@ -15,13 +15,13 @@ Please note: we strongly believe that **great companies always start with a frie
 Every post title **MUST** follow the format below:
 
 ```
-[Company Name] - [Job Title] - [Location]
+[Company Name] - [Job Title] - [Location] - [Salary] [Currency]/[Frequency]
 ```
 
 for eg:
 
 ```
-Facebook - Chief Software Architect - Remote/Toronto
+Facebook - Chief Software Architect - Remote/Toronto - $120,000 CAD/Year
 ```
 
 No special formattings like square brackets, for eg `[Chief] Software Architect` or salary, for eg `Chief Software Architect - HOT $4k salary`.
