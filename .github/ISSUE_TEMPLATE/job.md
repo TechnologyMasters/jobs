@@ -8,7 +8,7 @@ about: A generic job post
 PLEASE REVIEW RULES BEFORE POSTING:
 https://github.com/TechnologyMasters/jobs/blob/master/README.md#employers
 
-# Issue title format: [Company Name] - [Job Title] - [Location]
+# Issue title format: [Company Name] - [Job Title] - [Location] - [Salary] [Currency]/[Frequency]
 
 -->
 
